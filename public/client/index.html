@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+	<title>Project</title>
+	
+	<script src="assets/libs/angular/angular.min.js"></script>
+	<script src="assets/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script> -->
+
+</head>
+<body ng-app = 'project'>
+
+	<a href ='#/homeView'>Home View</a>
+	<a href ='#/secondView'>Second View</a>
+
+
+	<div class = 'container'>
+		<div ui-view></div>
+	</div>
+
+	<script src='app/app.routes.js'></script>
+	<script src='app/shared/homeView/homeViewController.js'></script>
+	<script src='app/shared/secondView/secondViewController.js'></script>
+
+</body>
+</html>
