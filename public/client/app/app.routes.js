@@ -12,7 +12,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'app/shared/homeView/homeView.html'
         })
         
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
+        // SECONDVIEW AND MULTIPLE NAMED VIEWS =================================
         .state('secondView', {
             url: '/secondView',
             templateUrl: 'app/shared/secondView/secondView.html'     
