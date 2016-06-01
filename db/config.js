@@ -1,15 +1,15 @@
-'use strict';
+// 'use strict';
 
-var mongoose = require('mongoose');
-var mongoUri = process.env.MONGOLAB_URI || "mongodb://localhost/project";
+// var mongoose = require('mongoose');
+// var mongoUri = process.env.MONGOLAB_URI || "mongodb://localhost/project";
 
-mongoose.connect(mongoUri);
+// mongoose.connect(mongoUri);
 
-var db = mongoose.connection;
+// var db = mongoose.connection;
 
-db.on("err", console.error.bind(console, "connection error:"));
-db.once("open", function(){
-  console.log("mongodb connection open");
-});
+// db.on("err", console.error.bind(console, "connection error:"));
+// db.once("open", function(){
+//   console.log("mongodb connection open");
+// });
 
-module.exports = db;
+// module.exports = db;
